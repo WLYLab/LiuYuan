@@ -1,0 +1,17 @@
+此程序是ResNet+Attention模型进行4mC二分类的模型。
+
+环境要求：
+		tensorflo=1.15
+		keas=2.3.1
+
+运行命令：train_test.py
+
+在train_test.py代码中修改三个变量的值:
+
+train_data='R.Chinensis_train.csv' #训练集
+test_data='R.Chinensis_test.csv'	#测试集
+out_name='R.Chinensis' #输出名字
+
+输出：R.Chinensis_result.csv，R.Chinensis_predict.csv，R.Chinensis_best_model
+
+R.Chinensis_result.csv为指标输出，R.Chinensis_predict.csv为预测值输出,R.Chinensis_best_model为训练过程中的最优模型
