@@ -6,7 +6,7 @@
 	results_family_classification文件夹下存放结果
 	src存放代码
 使用方法：
-	1.首先使用ViennaRNA(https://www.tbi.univie.ac.at/RNA/)对所有数据集(训练集，测试集，验证集都放在一个fasta文件里)的DNA的二级结构进行预测，预测得到的二级结构文件GM12878_200bp_ViennaRNA_predict_fold.txt。
+	1.首先使用ViennaRNA(https://www.tbi.univie.ac.at/RNA/)对多有数据集(训练集，测试集，验证集都放在一个fasta文件里)的DNA的二级结构进行预测，预测得到的二级结构文件GM12878_200bp_ViennaRNA_predict_fold.txt。
 	2.使用pickle_fold.py程序处理GM12878_200bp_ViennaRNA_predict_fold.txt文件得到GM12878_200bp_fold.pkl
 	3.请在training/train_model.py以及evaluate_model.py文件中修改相应的文件路径，网络参数等
 	4.运行命令：
